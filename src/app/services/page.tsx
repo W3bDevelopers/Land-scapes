@@ -64,7 +64,7 @@ export default function ServicesPage() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl sm:text-5xl md:text-7xl font-black text-emerald-900 mb-6"
         >
-          Our <span className="text-emerald-500">Expertise.</span>
+          [Expertise <span className="text-emerald-500">Text]</span>
         </motion.h1>
         <p className="text-lg md:text-xl text-stone-600 max-w-2xl mx-auto">
           [EXPERTISE DESCRIPTION HERE]
@@ -185,7 +185,7 @@ export default function ServicesPage() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <span className="text-emerald-500">📍</span>
-                <span>Rolleston, Christchurch</span>
+                <span>[CITY], [COUNTRY]</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-emerald-500">📞</span>

@@ -19,10 +19,10 @@ export default function ProjectsPage() {
         {/* Header - Text sizes updated for mobile compatibility */}
         <div className="mb-12 md:mb-16">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-emerald-900 mb-4 leading-tight">
-            Recent <span className="text-emerald-500">Transformations</span>
+            [TITLE] <span className="text-emerald-500">[HIGHLIGHTED TEXT]</span>
           </h1>
           <p className="text-lg md:text-xl text-stone-500 max-w-2xl">
-            From muddy construction sites to lush green lawns.
+            [BRIEF DESCRIPTION ABOUT PROJECT GALLERY]
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export default function ProjectsPage() {
               <ul className="space-y-4 text-sm">
                 <li className="flex items-start gap-3">
                   <span className="text-emerald-500">📍</span>
-                  <span>Christchurch, NZ</span>
+                  <span>[CITY], [COUNTRY]</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="text-emerald-500">📞</span>

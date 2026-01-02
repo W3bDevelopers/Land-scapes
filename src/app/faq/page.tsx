@@ -44,7 +44,7 @@ export default function FAQPage() {
             Common <span className="text-emerald-500">Questions.</span>
           </h1>
           <p className="text-stone-500 text-base md:text-lg">
-            Everything you need to know about your new Canterbury lawn.
+            [TEXT ABOUT FAQ]
           </p>
         </motion.div>
 
@@ -84,7 +84,7 @@ export default function FAQPage() {
         >
           <div className="relative z-10">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Still have questions?</h2>
-            <p className="text-emerald-200 mb-8 text-sm md:text-base">We are happy to chat about your specific project needs.</p>
+            <p className="text-emerald-200 mb-8 text-sm md:text-base">Contact Our team</p>
             <Link 
               href="/contact" 
               className="inline-block bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-8 py-4 rounded-full transition-all active:scale-95 text-sm md:text-base"
@@ -101,9 +101,9 @@ export default function FAQPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-stone-800 pb-12 mb-12">
             <div>
-              <h2 className="text-xl font-black text-white mb-6 uppercase tracking-tighter">LANDSCAPER</h2>
-              <p className="text-sm leading-relaxed max-w-xs">
-                Premium landscaping and hydroseeding across Christchurch and the greater Canterbury region.
+              <h2 className="text-xl font-black text-white mb-6 uppercase tracking-tighter">[COMPANY]</h2>
+              <p className="text-sm leading-relaxed mneedsax-w-xs">
+                [DESCRIPTION HERE]
               </p>
             </div>
             <div>
@@ -116,12 +116,12 @@ export default function FAQPage() {
             </div>
             <div>
               <h3 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Contact</h3>
-              <p className="text-sm mb-2">Christchurch, NZ</p>
+              <p className="text-sm mb-2">[CITY], [COUNTRY]</p>
               <p className="text-sm">022-188-6785</p>
             </div>
           </div>
           <div className="text-center text-[10px] md:text-xs font-medium uppercase tracking-widest">
-            © 2026 LANDSCAPER Landscaping.
+            © 2026 [COMPANY NAME].
           </div>
         </div>
       </footer>
